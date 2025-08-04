@@ -1,0 +1,14 @@
+2025-08-03 11:52:03,424 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_115203.log
+2025-08-03 11:52:03,424 - INFO - Processador XSLT inicializado
+2025-08-03 11:52:03,425 - INFO - Aplicando XSLT: data\output\meu_arquivo_avancado_20250803_114511_para_xslt.xml -> templates\xslt\exemplo_relatorio.xslt
+2025-08-03 11:52:03,428 - INFO - xsltproc não encontrado, tentando outros métodos
+2025-08-03 11:52:03,457 - WARNING - Saxon falhou: Error: Unable to access jarfile saxon-he.jar
+
+2025-08-03 11:52:03,457 - WARNING - lxml não instalado, criando HTML básico
+2025-08-03 11:52:03,480 - INFO - HTML básico criado: data\output\meu_arquivo_avancado_20250803_114511_para_xslt_relatorio.html
+2025-08-03 11:52:03,482 - INFO - Aplicando XSLT: data\output\resultado_parser_basico_para_xslt.xml -> templates\xslt\exemplo_relatorio.xslt
+2025-08-03 11:52:03,487 - INFO - xsltproc não encontrado, tentando outros métodos
+2025-08-03 11:52:03,511 - WARNING - Saxon falhou: Error: Unable to access jarfile saxon-he.jar
+
+2025-08-03 11:52:03,511 - WARNING - lxml não instalado, criando HTML básico
+2025-08-03 11:52:03,512 - INFO - HTML básico criado: data\output\resultado_parser_basico_para_xslt_relatorio.html

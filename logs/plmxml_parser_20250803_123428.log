@@ -1,0 +1,53 @@
+2025-08-03 12:34:28,039 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_123428.log
+2025-08-03 12:34:28,040 - INFO - 🚀 PLMXML Reporter (Corrigido) inicializado
+2025-08-03 12:34:28,041 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_123428.log
+2025-08-03 12:34:28,041 - INFO - 🚀 Parser PLMXML Avançado inicializado
+2025-08-03 12:34:28,042 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_123428.log
+2025-08-03 12:34:28,042 - INFO - Conversor JSON para XML inicializado
+2025-08-03 12:34:28,043 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_123428.log
+2025-08-03 12:34:28,043 - INFO - Processador XSLT inicializado
+2025-08-03 12:34:28,044 - INFO - 📁 Processando pasta: data\input
+2025-08-03 12:34:28,044 - INFO - 📂 Encontrados 1 arquivo(s) PLMXML
+2025-08-03 12:34:28,044 - INFO - 
+🔄 Processando: meu_arquivo.plmxml
+2025-08-03 12:34:28,045 - INFO - 🎯 Iniciando processamento: data\input\meu_arquivo.plmxml
+2025-08-03 12:34:28,045 - INFO - 📊 Etapa 1: Parsing PLMXML...
+2025-08-03 12:34:28,045 - INFO - 🎯 Iniciando processamento completo: data\input\meu_arquivo.plmxml
+2025-08-03 12:34:28,046 - INFO - 📏 Tamanho do arquivo: 0.07 MB
+2025-08-03 12:34:28,046 - INFO - 🔍 Iniciando parsing XML avançado...
+2025-08-03 12:34:28,050 - INFO - ✅ XML parseado com sucesso (encoding: utf-8)
+2025-08-03 12:34:28,051 - INFO - 📊 Elemento raiz: {http://www.plmxml.org/Schemas/PLMXMLSchema}PLMXML
+2025-08-03 12:34:28,052 - INFO - 🔍 Extraindo itens avançados...
+2025-08-03 12:34:28,052 - INFO -    🔍 Busca 'ProductRevision': 10 elementos encontrados
+2025-08-03 12:34:28,053 - INFO -    🔍 Busca 'Product': 9 elementos encontrados
+2025-08-03 12:34:28,054 - INFO -    🔍 Busca 'Part': 0 elementos encontrados
+2025-08-03 12:34:28,054 - INFO -    🔍 Busca 'Item': 11 elementos encontrados
+2025-08-03 12:34:28,054 - INFO -    🔍 Busca 'Design': 8 elementos encontrados
+2025-08-03 12:34:28,054 - INFO -    🔍 Busca 'DesignRevision': 13 elementos encontrados
+2025-08-03 12:34:28,055 - INFO -    🔍 Busca 'ElementoComID': 367 elementos encontrados
+2025-08-03 12:34:28,060 - INFO - ✅ Total de itens únicos extraídos: 378
+2025-08-03 12:34:28,060 - INFO - 🔍 Extraindo estrutura BOM avançada...
+2025-08-03 12:34:28,060 - INFO -    🔍 Busca BOM 'ProductInstance': 0 elementos encontrados
+2025-08-03 12:34:28,061 - INFO -    🔍 Busca BOM 'PartInstance': 0 elementos encontrados
+2025-08-03 12:34:28,061 - INFO -    🔍 Busca BOM 'BOMLine': 0 elementos encontrados
+2025-08-03 12:34:28,061 - INFO -    🔍 Busca BOM 'Instance': 0 elementos encontrados
+2025-08-03 12:34:28,061 - INFO -    🔍 Busca BOM 'Occurrence': 13 elementos encontrados
+2025-08-03 12:34:28,062 - INFO -    🔍 Busca BOM 'RelacaoPai': 12 elementos encontrados
+2025-08-03 12:34:28,063 - INFO -    🔍 Busca BOM 'RelacaoFilho': 13 elementos encontrados
+2025-08-03 12:34:28,063 - INFO - ✅ Total de linhas BOM extraídas: 38
+2025-08-03 12:34:28,063 - INFO - 🔍 Extraindo relacionamentos...
+2025-08-03 12:34:28,064 - INFO - ✅ Total de relacionamentos extraídos: 20
+2025-08-03 12:34:28,080 - INFO - 💾 Resultado avançado salvo em: data\output\meu_arquivo_avancado_20250803_123428.json
+2025-08-03 12:34:28,080 - INFO - ✅ Processamento completo concluído com sucesso
+2025-08-03 12:34:28,099 - INFO - 💾 Dados salvos em JSON: data\output\meu_arquivo_dados_20250803_123428.json
+2025-08-03 12:34:28,099 - INFO - 🔄 Etapa 2: Conversão para XML estruturado...
+2025-08-03 12:34:28,099 - INFO - Convertendo JSON para XML: data\output\meu_arquivo_dados_20250803_123428.json
+2025-08-03 12:34:28,158 - INFO - XML salvo: data\output\meu_arquivo_dados_20250803_123428_para_xslt.xml
+2025-08-03 12:34:28,158 - INFO - 📄 Etapa 3: Geração de relatório HTML...
+2025-08-03 12:34:28,159 - INFO - Aplicando XSLT: data\output\meu_arquivo_dados_20250803_123428_para_xslt.xml -> templates\xslt\exemplo_relatorio.xslt
+2025-08-03 12:34:28,161 - INFO - xsltproc não encontrado, tentando outros métodos
+2025-08-03 12:34:28,181 - WARNING - Saxon falhou: Error: Unable to access jarfile saxon-he.jar
+
+2025-08-03 12:34:28,182 - WARNING - lxml não instalado, criando HTML básico
+2025-08-03 12:34:28,200 - INFO - HTML básico criado: data\output\meu_arquivo_dados_20250803_123428_para_xslt_relatorio.html
+2025-08-03 12:34:28,200 - INFO - ✅ Processamento concluído com sucesso

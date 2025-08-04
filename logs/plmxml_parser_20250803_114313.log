@@ -1,0 +1,23 @@
+2025-08-03 11:43:13,503 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_114313.log
+2025-08-03 11:43:13,503 - INFO - ✅ Parser PLMXML inicializado
+2025-08-03 11:43:13,504 - INFO - 📂 Iniciando processamento: data\input\meu_arquivo.plmxml
+2025-08-03 11:43:13,504 - INFO - 📏 Tamanho do arquivo: 0.07 MB
+2025-08-03 11:43:13,507 - INFO - ✅ Arquivo lido com sucesso!
+2025-08-03 11:43:13,507 - INFO - 📊 Elemento raiz: {http://www.plmxml.org/Schemas/PLMXMLSchema}PLMXML
+2025-08-03 11:43:13,508 - INFO - 🔍 Procurando por itens...
+2025-08-03 11:43:13,508 - INFO -    🔍 Busca './/plm:ProductRevision': 10 elementos
+2025-08-03 11:43:13,509 - INFO -    🔍 Busca './/plm:Product': 9 elementos
+2025-08-03 11:43:13,509 - INFO -    🔍 Busca './/plm:Part': 0 elementos
+2025-08-03 11:43:13,509 - INFO -    🔍 Busca './/plm:Item': 11 elementos
+2025-08-03 11:43:13,510 - INFO -    🔍 Busca './/plm:Design': 8 elementos
+2025-08-03 11:43:13,510 - INFO -    🔍 Busca './/plm:DesignRevision': 13 elementos
+2025-08-03 11:43:13,510 - INFO -    ✅ Encontrados 51 itens únicos
+2025-08-03 11:43:13,511 - INFO - 🔍 Procurando por estrutura BOM...
+2025-08-03 11:43:13,511 - INFO -    🔍 Busca BOM './/plm:ProductInstance': 0 elementos
+2025-08-03 11:43:13,511 - INFO -    🔍 Busca BOM './/plm:PartInstance': 0 elementos
+2025-08-03 11:43:13,512 - INFO -    🔍 Busca BOM './/plm:BOMLine': 0 elementos
+2025-08-03 11:43:13,512 - INFO -    🔍 Busca BOM './/plm:Instance': 0 elementos
+2025-08-03 11:43:13,512 - INFO -    🔍 Busca BOM './/plm:Occurrence': 13 elementos
+2025-08-03 11:43:13,512 - INFO -    ✅ Encontradas 13 linhas BOM
+2025-08-03 11:43:13,512 - INFO - 📊 Resumo: 51 itens, 13 linhas BOM
+2025-08-03 11:43:13,514 - INFO - 💾 Dados salvos em: data\output\resultado_parser_basico.json

@@ -1,0 +1,6 @@
+2025-08-03 11:50:20,292 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_115020.log
+2025-08-03 11:50:20,292 - INFO - Conversor JSON para XML inicializado
+2025-08-03 11:50:20,292 - INFO - Convertendo JSON para XML: data\output\meu_arquivo_avancado_20250803_114511.json
+2025-08-03 11:50:20,331 - INFO - XML salvo: data\output\meu_arquivo_avancado_20250803_114511_para_xslt.xml
+2025-08-03 11:50:20,332 - INFO - Convertendo JSON para XML: data\output\resultado_parser_basico.json
+2025-08-03 11:50:20,335 - INFO - XML salvo: data\output\resultado_parser_basico_para_xslt.xml

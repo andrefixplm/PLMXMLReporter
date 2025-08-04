@@ -1,0 +1,15 @@
+2025-08-03 12:33:59,847 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_123359.log
+2025-08-03 12:33:59,847 - INFO - 🚀 PLMXML Reporter (Corrigido) inicializado
+2025-08-03 12:33:59,848 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_123359.log
+2025-08-03 12:33:59,848 - INFO - 🚀 Parser PLMXML Avançado inicializado
+2025-08-03 12:33:59,849 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_123359.log
+2025-08-03 12:33:59,849 - INFO - Conversor JSON para XML inicializado
+2025-08-03 12:33:59,850 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_123359.log
+2025-08-03 12:33:59,850 - INFO - Processador XSLT inicializado
+2025-08-03 12:33:59,850 - INFO - 📁 Processando pasta: data\input
+2025-08-03 12:33:59,850 - INFO - 📂 Encontrados 1 arquivo(s) PLMXML
+2025-08-03 12:33:59,850 - INFO - 
+🔄 Processando: meu_arquivo.plmxml
+2025-08-03 12:33:59,851 - INFO - 🎯 Iniciando processamento: data\input\meu_arquivo.plmxml
+2025-08-03 12:33:59,851 - INFO - 📊 Etapa 1: Parsing PLMXML...
+2025-08-03 12:33:59,851 - ERROR - Erro inesperado: 'PLMXMLParserAvancado' object has no attribute 'ler_arquivo_plmxml'

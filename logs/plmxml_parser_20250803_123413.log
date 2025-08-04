@@ -1,0 +1,47 @@
+2025-08-03 12:34:13,348 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_123413.log
+2025-08-03 12:34:13,349 - INFO - 🚀 PLMXML Reporter (Corrigido) inicializado
+2025-08-03 12:34:13,350 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_123413.log
+2025-08-03 12:34:13,350 - INFO - 🚀 Parser PLMXML Avançado inicializado
+2025-08-03 12:34:13,351 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_123413.log
+2025-08-03 12:34:13,351 - INFO - Conversor JSON para XML inicializado
+2025-08-03 12:34:13,352 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250803_123413.log
+2025-08-03 12:34:13,353 - INFO - Processador XSLT inicializado
+2025-08-03 12:34:13,353 - INFO - 📁 Processando pasta: data\input
+2025-08-03 12:34:13,354 - INFO - 📂 Encontrados 1 arquivo(s) PLMXML
+2025-08-03 12:34:13,354 - INFO - 
+🔄 Processando: meu_arquivo.plmxml
+2025-08-03 12:34:13,355 - INFO - 🎯 Iniciando processamento: data\input\meu_arquivo.plmxml
+2025-08-03 12:34:13,355 - INFO - 📊 Etapa 1: Parsing PLMXML...
+2025-08-03 12:34:13,355 - INFO - 🎯 Iniciando processamento completo: data\input\meu_arquivo.plmxml
+2025-08-03 12:34:13,356 - INFO - 📏 Tamanho do arquivo: 0.07 MB
+2025-08-03 12:34:13,356 - INFO - 🔍 Iniciando parsing XML avançado...
+2025-08-03 12:34:13,358 - INFO - ✅ XML parseado com sucesso (encoding: utf-8)
+2025-08-03 12:34:13,358 - INFO - 📊 Elemento raiz: {http://www.plmxml.org/Schemas/PLMXMLSchema}PLMXML
+2025-08-03 12:34:13,359 - INFO - 🔍 Extraindo itens avançados...
+2025-08-03 12:34:13,360 - INFO -    🔍 Busca 'ProductRevision': 10 elementos encontrados
+2025-08-03 12:34:13,361 - INFO -    🔍 Busca 'Product': 9 elementos encontrados
+2025-08-03 12:34:13,362 - INFO -    🔍 Busca 'Part': 0 elementos encontrados
+2025-08-03 12:34:13,362 - INFO -    🔍 Busca 'Item': 11 elementos encontrados
+2025-08-03 12:34:13,363 - INFO -    🔍 Busca 'Design': 8 elementos encontrados
+2025-08-03 12:34:13,363 - INFO -    🔍 Busca 'DesignRevision': 13 elementos encontrados
+2025-08-03 12:34:13,364 - INFO -    🔍 Busca 'ElementoComID': 367 elementos encontrados
+2025-08-03 12:34:13,367 - INFO - ✅ Total de itens únicos extraídos: 378
+2025-08-03 12:34:13,367 - INFO - 🔍 Extraindo estrutura BOM avançada...
+2025-08-03 12:34:13,368 - INFO -    🔍 Busca BOM 'ProductInstance': 0 elementos encontrados
+2025-08-03 12:34:13,369 - INFO -    🔍 Busca BOM 'PartInstance': 0 elementos encontrados
+2025-08-03 12:34:13,369 - INFO -    🔍 Busca BOM 'BOMLine': 0 elementos encontrados
+2025-08-03 12:34:13,369 - INFO -    🔍 Busca BOM 'Instance': 0 elementos encontrados
+2025-08-03 12:34:13,370 - INFO -    🔍 Busca BOM 'Occurrence': 13 elementos encontrados
+2025-08-03 12:34:13,370 - INFO -    🔍 Busca BOM 'RelacaoPai': 12 elementos encontrados
+2025-08-03 12:34:13,371 - INFO -    🔍 Busca BOM 'RelacaoFilho': 13 elementos encontrados
+2025-08-03 12:34:13,371 - INFO - ✅ Total de linhas BOM extraídas: 38
+2025-08-03 12:34:13,371 - INFO - 🔍 Extraindo relacionamentos...
+2025-08-03 12:34:13,371 - INFO - ✅ Total de relacionamentos extraídos: 20
+2025-08-03 12:34:13,383 - INFO - 💾 Resultado avançado salvo em: data\output\meu_arquivo_avancado_20250803_123413.json
+2025-08-03 12:34:13,383 - INFO - ✅ Processamento completo concluído com sucesso
+2025-08-03 12:34:13,392 - INFO - 💾 Dados salvos em JSON: data\output\meu_arquivo_dados_20250803_123413.json
+2025-08-03 12:34:13,392 - INFO - 🔄 Etapa 2: Conversão para XML estruturado...
+2025-08-03 12:34:13,392 - INFO - Convertendo JSON para XML: data\output\meu_arquivo_dados_20250803_123413.json
+2025-08-03 12:34:13,462 - INFO - XML salvo: data\output\meu_arquivo_dados_20250803_123413_para_xslt.xml
+2025-08-03 12:34:13,463 - INFO - 📄 Etapa 3: Geração de relatório HTML...
+2025-08-03 12:34:13,463 - ERROR - Erro inesperado: XSLTProcessor.aplicar_xslt() missing 1 required positional argument: 'arquivo_xslt'

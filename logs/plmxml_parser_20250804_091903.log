@@ -1,0 +1,38 @@
+2025-08-04 09:19:03,526 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250804_091903.log
+2025-08-04 09:19:03,526 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250804_091903.log
+2025-08-04 09:19:03,527 - INFO - ✅ Parser PLMXML inicializado
+2025-08-04 09:19:03,527 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250804_091903.log
+2025-08-04 09:19:03,527 - INFO - 🚀 Parser PLMXML Avançado inicializado
+2025-08-04 09:19:03,528 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250804_091903.log
+2025-08-04 09:19:03,528 - INFO - Conversor JSON para XML inicializado
+2025-08-04 09:19:03,528 - INFO - Logger configurado. Arquivo de log: logs\plmxml_parser_20250804_091903.log
+2025-08-04 09:19:03,528 - INFO - Processador XSLT inicializado
+2025-08-04 09:19:26,744 - INFO - 🎯 Iniciando processamento completo: C:/Users/andre/Downloads/tv_crf_rpt_13564_10_30072025_1655.xml
+2025-08-04 09:19:26,744 - INFO - 📏 Tamanho do arquivo: 0.07 MB
+2025-08-04 09:19:26,745 - INFO - 🔍 Iniciando parsing XML avançado...
+2025-08-04 09:19:26,748 - INFO - ✅ XML parseado com sucesso (encoding: utf-8)
+2025-08-04 09:19:26,748 - INFO - 📊 Elemento raiz: {http://www.plmxml.org/Schemas/PLMXMLSchema}PLMXML
+2025-08-04 09:19:26,749 - INFO - 🔍 Extraindo itens avançados...
+2025-08-04 09:19:26,749 - INFO -    🔍 Busca 'ProductRevision': 10 elementos encontrados
+2025-08-04 09:19:26,750 - INFO -    🔍 Busca 'Product': 9 elementos encontrados
+2025-08-04 09:19:26,750 - INFO -    🔍 Busca 'Part': 0 elementos encontrados
+2025-08-04 09:19:26,750 - INFO -    🔍 Busca 'Item': 11 elementos encontrados
+2025-08-04 09:19:26,750 - INFO -    🔍 Busca 'Design': 8 elementos encontrados
+2025-08-04 09:19:26,750 - INFO -    🔍 Busca 'DesignRevision': 13 elementos encontrados
+2025-08-04 09:19:26,750 - INFO -    🔍 Busca 'ElementoComID': 367 elementos encontrados
+2025-08-04 09:19:26,752 - INFO - ✅ Total de itens únicos extraídos: 378
+2025-08-04 09:19:26,752 - INFO - 🔍 Extraindo estrutura BOM avançada...
+2025-08-04 09:19:26,752 - INFO -    🔍 Busca BOM 'ProductInstance': 0 elementos encontrados
+2025-08-04 09:19:26,752 - INFO -    🔍 Busca BOM 'PartInstance': 0 elementos encontrados
+2025-08-04 09:19:26,752 - INFO -    🔍 Busca BOM 'BOMLine': 0 elementos encontrados
+2025-08-04 09:19:26,752 - INFO -    🔍 Busca BOM 'Instance': 0 elementos encontrados
+2025-08-04 09:19:26,753 - INFO -    🔍 Busca BOM 'Occurrence': 13 elementos encontrados
+2025-08-04 09:19:26,753 - INFO -    🔍 Busca BOM 'RelacaoPai': 12 elementos encontrados
+2025-08-04 09:19:26,753 - INFO -    🔍 Busca BOM 'RelacaoFilho': 13 elementos encontrados
+2025-08-04 09:19:26,753 - INFO - ✅ Total de linhas BOM extraídas: 38
+2025-08-04 09:19:26,753 - INFO - 🔍 Extraindo relacionamentos...
+2025-08-04 09:19:26,754 - INFO - ✅ Total de relacionamentos extraídos: 20
+2025-08-04 09:19:26,763 - INFO - 💾 Resultado avançado salvo em: data\output\tv_crf_rpt_13564_10_30072025_1655_avancado_20250804_091926.json
+2025-08-04 09:19:26,763 - INFO - ✅ Processamento completo concluído com sucesso
+2025-08-04 09:19:26,771 - INFO - Convertendo JSON para XML: data\output\tv_crf_rpt_13564_10_30072025_1655_dados_20250804_091926.json
+2025-08-04 09:19:26,809 - INFO - XML salvo: data\output\tv_crf_rpt_13564_10_30072025_1655_dados_20250804_091926_para_xslt.xml
