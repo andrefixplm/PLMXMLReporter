@@ -170,6 +170,7 @@
   },
   "active": "3bdaff3121dc1e2c",
   "lastOpenFiles": [
+    "dist/logs/plmxml_parser_20250805_104649.log",
     "dist/logs/plmxml_parser_20250805_083422.log",
     "build/SmartPLM_XSLT_Generator/EXE-00.toc",
     "dist/SmartPLM_XSLT_Generator.exe",
@@ -180,7 +181,6 @@
     "build/SmartPLM_XSLT_Generator/localpycs/pyimod04_pywin32.pyc",
     "build/SmartPLM_XSLT_Generator/localpycs/pyimod03_ctypes.pyc",
     "build/SmartPLM_XSLT_Generator/localpycs/struct.pyc",
-    "build/SmartPLM_XSLT_Generator/localpycs/pyimod02_importers.pyc",
     "GUIA_FINAL_INTERFACE.md",
     "COMO_USAR_INTERFACE.md"
   ]
