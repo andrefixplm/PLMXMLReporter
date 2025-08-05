@@ -47,10 +47,24 @@ class XSLTGenerator:
         main_frame.columnconfigure(1, weight=1)
         main_frame.rowconfigure(2, weight=1)
         
-        # Título
-        titulo = ttk.Label(main_frame, text="📝 Gerador de Código XSLT - PLMXML", 
+        # Título da aplicação
+        titulo_frame = ttk.Frame(main_frame)
+        titulo_frame.grid(row=0, column=0, columnspan=3, pady=(0, 20))
+        
+        # Título da aplicação
+        titulo = ttk.Label(titulo_frame, text="📝 Gerador de Código XSLT - PLMXML", 
                           font=('Arial', 16, 'bold'))
-        titulo.grid(row=0, column=0, columnspan=3, pady=(0, 20))
+        titulo.grid(row=0, column=0, pady=(0, 5))
+        
+        # Informações da empresa
+        empresa_info = ttk.Label(titulo_frame, text="SmartPLM - Soluções Inteligentes em PLM", 
+                               font=('Arial', 10, 'italic'), foreground='#666666')
+        empresa_info.grid(row=1, column=0, pady=(0, 5))
+        
+        # Desenvolvedor
+        dev_info = ttk.Label(titulo_frame, text="Desenvolvido por André Luiz", 
+                           font=('Arial', 9), foreground='#888888')
+        dev_info.grid(row=2, column=0)
         
         # Frame de seleção de arquivo
         self.criar_frame_selecao(main_frame)
@@ -763,12 +777,35 @@ class XSLTGenerator:
                         </div>
                     </div>
                     
-                    <!-- Rodapé -->
-                    <div class="info-box">
-                        <p><strong>Gerado automaticamente pelo PLMXML Reporter</strong></p>
-                        <p>Data: <xsl:value-of select="substring(/plm:PLMXML/@date,1,10)"/></p>
-                        <p>Total de campos wt9_: """ + str(len(campos_wt9)) + """</p>
-                    </div>
+                                         <!-- Rodapé -->
+                     <div class="info-box">
+                         <div style="text-align: center; margin: 20px 0;">
+                             <div style="font-family: 'Courier New', monospace; font-size: 12px; color: #007acc; margin-bottom: 15px;">
+                                 ███████╗███╗   ███╗ █████╗ ██████╗ ████████╗██████╗ 
+                                 ██╔════╝████╗ ████║██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗
+                                 ███████╗██╔████╔██║███████║██████╔╝   ██║   ██████╔╝
+                                 ╚════██║██║╚██╔╝██║██╔══██║██╔═══╝    ██║   ██╔══██╗
+                                 ███████║██║ ╚═╝ ██║██║  ██║██║        ██║   ██║  ██║
+                                 ╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝        ╚═╝   ╚═╝  ╚═╝
+                                                     ██████╗ ██╗     ███╗   ██╗
+                                                    ██╔═══██╗██║     ████╗  ██║
+                                                    ██║   ██║██║     ██╔██╗ ██║
+                                                    ██║   ██║██║     ██║╚██╗██║
+                                                    ╚██████╔╝███████╗██║ ╚████║
+                                                     ╚═════╝ ╚══════╝╚═╝  ╚═══╝
+                             </div>
+                             <h3 style="color: #007acc; margin: 10px 0;">SmartPLM</h3>
+                             <p style="font-style: italic; color: #666;">Soluções Inteligentes em PLM</p>
+                             <p style="margin: 15px 0;"><strong>Gerador de Código XSLT - PLMXML Reporter</strong></p>
+                             <p style="font-size: 11px; color: #888;">Desenvolvido por André Luiz</p>
+                             <hr style="border: 1px solid #ddd; margin: 15px 0;">
+                             <p><strong>Data de Geração:</strong> <xsl:value-of select="substring(/plm:PLMXML/@date,1,10)"/></p>
+                             <p><strong>Total de campos wt9_:</strong> """ + str(len(campos_wt9)) + """</p>
+                             <p style="font-size: 10px; color: #999; margin-top: 20px;">
+                                 © 2025 SmartPLM - Todos os direitos reservados
+                             </p>
+                         </div>
+                     </div>
                 </div>
             </body>
         </html>

@@ -25,7 +25,7 @@ from src.transformers.aplicar_xslt import XSLTProcessor
 class PLMXMLReporterGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("PLMXML Reporter - Interface Gráfica")
+        self.root.title("PLMXML Reporter - Interface Gráfica - SmartPLM Soluções Inteligentes em PLM")
         self.root.geometry("1000x700")
         self.root.configure(bg='#f0f0f0')
         
@@ -78,7 +78,7 @@ class PLMXMLReporterGUI:
     def mostrar_sobre(self):
         """Mostra informações sobre a aplicação"""
         sobre_texto = """
-PLMXML Reporter - Interface Gráfica
+PLMXML Reporter - Interface Gráfica (SmartPLM Soluções Inteligentes em PLM - Andre Luiz)
 
 Versão: 1.0
 Desenvolvido para processamento de arquivos PLMXML

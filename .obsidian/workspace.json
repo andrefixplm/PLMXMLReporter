@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "e2ef55ef4cf174d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c22dc88ab2875798",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bdaff3121dc1e2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GUIA_DISTRIBUICAO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GUIA_DISTRIBUICAO"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7b5754ff67ca8802",
+    "type": "split",
+    "children": [
+      {
+        "id": "b12154ebbaa76ea3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c3525a1a8a8a186",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "e67d1cd945756977",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "f1a17a0490972976",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "20969b248ba489f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e1f0abd8031b18e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8014668ff65b8422",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GUIA_DISTRIBUICAO.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para GUIA_DISTRIBUICAO"
+            }
+          },
+          {
+            "id": "798c94608b1c4db3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GUIA_DISTRIBUICAO.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para GUIA_DISTRIBUICAO"
+            }
+          },
+          {
+            "id": "8f13a60a93cd4feb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "977897ea4d4f2fd1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GUIA_DISTRIBUICAO.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de GUIA_DISTRIBUICAO"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "3bdaff3121dc1e2c",
+  "lastOpenFiles": [
+    "dist/logs/plmxml_parser_20250805_083422.log",
+    "build/SmartPLM_XSLT_Generator/EXE-00.toc",
+    "dist/SmartPLM_XSLT_Generator.exe",
+    "build/SmartPLM_XSLT_Generator/PKG-00.toc",
+    "build/SmartPLM_XSLT_Generator/SmartPLM_XSLT_Generator.pkg",
+    "build/SmartPLM_XSLT_Generator/PYZ-00.toc",
+    "build/SmartPLM_XSLT_Generator/PYZ-00.pyz",
+    "build/SmartPLM_XSLT_Generator/localpycs/pyimod04_pywin32.pyc",
+    "build/SmartPLM_XSLT_Generator/localpycs/pyimod03_ctypes.pyc",
+    "build/SmartPLM_XSLT_Generator/localpycs/struct.pyc",
+    "build/SmartPLM_XSLT_Generator/localpycs/pyimod02_importers.pyc",
+    "GUIA_FINAL_INTERFACE.md",
+    "COMO_USAR_INTERFACE.md"
+  ]
+}
